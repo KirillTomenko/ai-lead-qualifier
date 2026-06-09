@@ -1,0 +1,35 @@
+<svg viewBox="0 0 860 520" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'Cascadia Code',monospace">
+  <rect width="860" height="520" fill="#1a1a2e" rx="10"/>
+  <rect width="860" height="40" fill="#16213e" rx="10"/>
+  <rect y="30" width="860" height="10" fill="#16213e"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <rect x="100" y="10" width="540" height="20" rx="10" fill="#0f3460"/>
+  <text x="370" y="24" fill="#8892b0" font-size="11" text-anchor="middle">localhost:8000/docs — Response 201</text>
+  <rect x="0" y="40" width="860" height="40" fill="#f0faf4"/>
+  <rect x="20" y="52" width="38" height="20" rx="3" fill="#49cc90"/>
+  <text x="39" y="66" fill="white" font-size="11" font-weight="700" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif">201</text>
+  <text x="68" y="66" fill="#3b4151" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif">Response  application/json  112ms</text>
+  <rect x="0" y="80" width="860" height="440" fill="#1e1e2e"/>
+  <text x="28" y="110" fill="#6c7086" font-size="12">{</text>
+  <text x="44" y="132" fill="#89dceb" font-size="12">"lead_id"</text><text x="116" y="132" fill="#cdd6f4" font-size="12">: </text><text x="128" y="132" fill="#a6e3a1" font-size="12">"f47ac10b-58cc-4372-a567-0e02b2c3d479"</text>
+  <text x="44" y="152" fill="#89dceb" font-size="12">"name"</text><text x="100" y="152" fill="#cdd6f4" font-size="12">: </text><text x="112" y="152" fill="#a6e3a1" font-size="12">"ООО Ромашка / Иван Петров"</text>
+  <text x="44" y="172" fill="#89dceb" font-size="12">"contact"</text><text x="116" y="172" fill="#cdd6f4" font-size="12">: </text><text x="128" y="172" fill="#a6e3a1" font-size="12">"@ivan_petrov"</text>
+  <text x="44" y="192" fill="#89dceb" font-size="12">"qualification"</text><text x="160" y="192" fill="#cdd6f4" font-size="12">: {</text>
+  <rect x="58" y="202" width="750" height="20" rx="2" fill="#2a2a3e"/>
+  <text x="60" y="217" fill="#89dceb" font-size="12">  "score"</text><text x="130" y="217" fill="#cdd6f4" font-size="12">: </text><text x="142" y="217" fill="#fab387" font-size="13" font-weight="700">84</text>
+  <text x="60" y="237" fill="#89dceb" font-size="12">  "status"</text><text x="132" y="237" fill="#cdd6f4" font-size="12">: </text><rect x="144" y="226" width="34" height="16" rx="8" fill="#49cc90"/><text x="161" y="238" fill="white" font-size="10" font-weight="700" text-anchor="middle">hot</text>
+  <text x="60" y="257" fill="#89dceb" font-size="12">  "fit_score": </text><text x="178" y="257" fill="#fab387" font-size="12">9</text><text x="190" y="257" fill="#6c7086" font-size="12">, </text><text x="204" y="257" fill="#89dceb" font-size="12">"budget_score": </text><text x="338" y="257" fill="#fab387" font-size="12">8</text><text x="350" y="257" fill="#6c7086" font-size="12">, </text><text x="364" y="257" fill="#89dceb" font-size="12">"urgency_score": </text><text x="506" y="257" fill="#fab387" font-size="12">8</text><text x="518" y="257" fill="#6c7086" font-size="12">, </text><text x="532" y="257" fill="#89dceb" font-size="12">"clarity_score": </text><text x="666" y="257" fill="#fab387" font-size="12">9</text>
+  <text x="60" y="277" fill="#89dceb" font-size="12">  "summary"</text><text x="150" y="277" fill="#cdd6f4" font-size="12">: </text><text x="162" y="277" fill="#a6e3a1" font-size="12">"E-commerce компания хочет автоматизировать Telegram-воронку."</text>
+  <text x="60" y="297" fill="#89dceb" font-size="12">  "recommendation"</text><text x="218" y="297" fill="#cdd6f4" font-size="12">: </text><text x="230" y="297" fill="#a6e3a1" font-size="12">"Написать сегодня — чёткое ТЗ, бюджет адекватный."</text>
+  <text x="60" y="317" fill="#89dceb" font-size="12">  "red_flags"</text><text x="152" y="317" fill="#cdd6f4" font-size="12">: []</text>
+  <text x="60" y="337" fill="#89dceb" font-size="12">  "green_flags"</text><text x="166" y="337" fill="#cdd6f4" font-size="12">: [</text>
+  <text x="76" y="355" fill="#a6e3a1" font-size="12">"Чёткое ТЗ"</text><text x="168" y="355" fill="#6c7086" font-size="12">,</text>
+  <text x="76" y="373" fill="#a6e3a1" font-size="12">"Адекватный бюджет"</text><text x="218" y="373" fill="#6c7086" font-size="12">,</text>
+  <text x="76" y="391" fill="#a6e3a1" font-size="12">"Срочно нужно"</text>
+  <text x="60" y="409" fill="#cdd6f4" font-size="12">]</text>
+  <text x="44" y="427" fill="#cdd6f4" font-size="12">},</text>
+  <text x="44" y="447" fill="#89dceb" font-size="12">"created_at"</text><text x="148" y="447" fill="#cdd6f4" font-size="12">: </text><text x="160" y="447" fill="#a6e3a1" font-size="12">"2025-06-10T12:04:37.841289+00:00"</text>
+  <text x="28" y="467" fill="#6c7086" font-size="12">}</text>
+</svg>

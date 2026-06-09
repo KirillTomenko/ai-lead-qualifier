@@ -1,0 +1,42 @@
+<svg viewBox="0 0 860 540" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'Cascadia Code',monospace">
+  <rect width="860" height="540" fill="#1a1a2e" rx="10"/>
+  <rect width="860" height="40" fill="#16213e" rx="10"/>
+  <rect y="30" width="860" height="10" fill="#16213e"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <rect x="100" y="10" width="540" height="20" rx="10" fill="#0f3460"/>
+  <text x="370" y="24" fill="#8892b0" font-size="11" text-anchor="middle">localhost:8000/docs</text>
+  <rect x="0" y="40" width="860" height="500" fill="#fafafa"/>
+  <rect x="0" y="40" width="860" height="64" fill="#1b1b1b"/>
+  <text x="30" y="70" fill="white" font-size="18" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">AI Lead Qualifier API</text>
+  <text x="30" y="88" fill="#aaa" font-size="11" font-family="ui-sans-serif,system-ui,sans-serif">1.0.0  OAS 3.0</text>
+  <rect x="700" y="55" width="130" height="28" rx="4" fill="#4a9e5c"/>
+  <text x="765" y="73" fill="white" font-size="12" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif">Authorize</text>
+  <rect x="20" y="116" width="820" height="52" rx="4" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="36" y="137" fill="#3b4151" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif">Сервис квалификации входящих лидов с помощью ИИ.</text>
+  <rect x="20" y="180" width="820" height="30" rx="4" fill="#e8f4ea" stroke="#49cc90" stroke-width="1"/>
+  <text x="36" y="200" fill="#3b4151" font-size="14" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">leads</text>
+  <rect x="20" y="218" width="820" height="44" rx="4" fill="#e8f7f0" stroke="#49cc90" stroke-width="0.5"/>
+  <rect x="28" y="228" width="52" height="22" rx="3" fill="#49cc90"/>
+  <text x="54" y="244" fill="white" font-size="11" font-weight="700" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif">POST</text>
+  <text x="96" y="244" fill="#3b4151" font-size="13" font-family="ui-monospace,monospace">/leads/qualify</text>
+  <text x="320" y="244" fill="#888" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif">Квалифицировать новый лид</text>
+  <rect x="20" y="270" width="820" height="44" rx="4" fill="#e8f0fa" stroke="#61affe" stroke-width="0.5"/>
+  <rect x="28" y="280" width="42" height="22" rx="3" fill="#61affe"/>
+  <text x="49" y="296" fill="white" font-size="11" font-weight="700" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif">GET</text>
+  <text x="84" y="296" fill="#3b4151" font-size="13" font-family="ui-monospace,monospace">/leads/</text>
+  <text x="230" y="296" fill="#888" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif">Список всех лидов</text>
+  <rect x="20" y="322" width="820" height="44" rx="4" fill="#e8f0fa" stroke="#61affe" stroke-width="0.5"/>
+  <rect x="28" y="332" width="42" height="22" rx="3" fill="#61affe"/>
+  <text x="49" y="348" fill="white" font-size="11" font-weight="700" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif">GET</text>
+  <text x="84" y="348" fill="#3b4151" font-size="13" font-family="ui-monospace,monospace">/leads/{lead_id}</text>
+  <text x="280" y="348" fill="#888" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif">Получить лид по ID</text>
+  <rect x="20" y="378" width="820" height="30" rx="4" fill="#fef3e8" stroke="#f0ad4e" stroke-width="1"/>
+  <text x="36" y="398" fill="#3b4151" font-size="14" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">health</text>
+  <rect x="20" y="416" width="820" height="44" rx="4" fill="#fef9ef" stroke="#f0ad4e" stroke-width="0.5"/>
+  <rect x="28" y="426" width="42" height="22" rx="3" fill="#61affe"/>
+  <text x="49" y="442" fill="white" font-size="11" font-weight="700" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif">GET</text>
+  <text x="84" y="442" fill="#3b4151" font-size="13" font-family="ui-monospace,monospace">/health</text>
+  <text x="196" y="442" fill="#888" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif">Health check</text>
+</svg>

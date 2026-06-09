@@ -1,0 +1,27 @@
+<svg viewBox="0 0 860 480" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'Cascadia Code',monospace">
+  <rect width="860" height="480" fill="#1a1a2e" rx="10"/>
+  <rect width="860" height="40" fill="#16213e" rx="10"/>
+  <rect y="30" width="860" height="10" fill="#16213e"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <rect x="100" y="10" width="540" height="20" rx="10" fill="#0f3460"/>
+  <text x="370" y="24" fill="#8892b0" font-size="11" text-anchor="middle">localhost:8000/docs — POST /leads/qualify</text>
+  <rect x="0" y="40" width="860" height="440" fill="#fafafa"/>
+  <rect x="20" y="50" width="820" height="44" rx="4" fill="#d4edda" stroke="#49cc90" stroke-width="1.5"/>
+  <rect x="28" y="60" width="52" height="22" rx="3" fill="#49cc90"/>
+  <text x="54" y="76" fill="white" font-size="11" font-weight="700" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif">POST</text>
+  <text x="96" y="76" fill="#3b4151" font-size="13" font-family="ui-monospace,monospace">/leads/qualify</text>
+  <rect x="20" y="104" width="820" height="26" fill="white" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="36" y="121" fill="#3b4151" font-size="13" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">Request body  —  application/json</text>
+  <rect x="20" y="130" width="820" height="260" fill="#1e1e2e" stroke="#333" stroke-width="0.5"/>
+  <text x="44" y="158" fill="#6c7086" font-size="12">{</text>
+  <text x="60" y="178" fill="#89dceb" font-size="12">"name"</text><text x="118" y="178" fill="#cdd6f4" font-size="12">: </text><text x="130" y="178" fill="#a6e3a1" font-size="12">"ООО Ромашка / Иван Петров"</text>
+  <text x="60" y="200" fill="#89dceb" font-size="12">"contact"</text><text x="130" y="200" fill="#cdd6f4" font-size="12">: </text><text x="142" y="200" fill="#a6e3a1" font-size="12">"@ivan_petrov"</text>
+  <text x="60" y="222" fill="#89dceb" font-size="12">"task_description"</text><text x="214" y="222" fill="#cdd6f4" font-size="12">: </text><text x="226" y="222" fill="#a6e3a1" font-size="12">"Нужен Telegram-бот для автоматизации приёма заявок."</text>
+  <text x="60" y="248" fill="#89dceb" font-size="12">"budget"</text><text x="122" y="248" fill="#cdd6f4" font-size="12">: </text><text x="134" y="248" fill="#a6e3a1" font-size="12">"50 000 руб"</text>
+  <text x="60" y="268" fill="#89dceb" font-size="12">"deadline"</text><text x="134" y="268" fill="#cdd6f4" font-size="12">: </text><text x="146" y="268" fill="#a6e3a1" font-size="12">"2 недели"</text>
+  <text x="44" y="290" fill="#6c7086" font-size="12">}</text>
+  <rect x="660" y="404" width="170" height="38" rx="4" fill="#49cc90"/>
+  <text x="745" y="427" fill="white" font-size="13" font-weight="700" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif">Execute</text>
+</svg>

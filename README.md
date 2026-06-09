@@ -4,6 +4,36 @@ FastAPI сервис квалификации входящих лидов с п�
 
 Когда клиент пишет «нужен бот» — непонятно: горячий это лид или спам. Сервис прогоняет описание задачи через GPT-4o-mini и за секунды выдаёт структурированный анализ: скор, статус, тревожные сигналы и конкретную рекомендацию.
 
+## Demo
+
+<!-- GIF_PLACEHOLDER_START
+  Чтобы добавить GIF:
+  1. Запиши демо по сценарию в docs/GIF_SCENARIO.md (OBS / Loom / gifcap.dev)
+  2. Сохрани файл как docs/demo.gif
+  3. Замени строку ниже: ![Demo](docs/demo.gif)
+GIF_PLACEHOLDER_END -->
+
+> 📹 **GIF-демо появится здесь** — отправь POST-запрос → получи квалификацию → уведомление в Telegram.
+> Сценарий записи: [`docs/GIF_SCENARIO.md`](docs/GIF_SCENARIO.md)
+
+---
+
+## Screenshots
+
+### 1. Swagger UI — все эндпоинты
+![Swagger UI](docs/screenshots/swagger_ui.svg)
+
+### 2. POST /leads/qualify — запрос с данными лида
+![POST request](docs/screenshots/post_request.svg)
+
+### 3. Ответ API — квалификация hot-лида со скорами и флагами
+![API response](docs/screenshots/api_response.svg)
+
+### 4. Telegram — карточка лида в боте
+![Telegram notification](docs/screenshots/telegram.svg)
+
+---
+
 ## Стек
 
 - **Python 3.12** + **FastAPI** + **Pydantic v2**
